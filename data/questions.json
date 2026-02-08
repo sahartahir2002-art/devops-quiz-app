@@ -195,5 +195,72 @@
     "answerIndex": 0,
     "explanation": "git pull usually does fetch + merge, bringing remote updates into your current branch."
   }
+  ,
+  {
+    "id": "Q16",
+    "topic": "DevOps Culture",
+    "question": "Which practice supports a 'shared responsibility' mindset in DevOps?",
+    "options": [
+      "Blaming teams when incidents happen",
+      "Keeping Dev and Ops goals completely separate",
+      "Shared monitoring and incident response ownership",
+      "Avoiding communication between teams"
+    ],
+    "answerIndex": 2,
+    "explanation": "Shared monitoring and incident response encourages teams to own outcomes together."
+  },
+  {
+    "id": "Q17",
+    "topic": "Continuous Integration",
+    "question": "What is a common outcome of integrating changes very late in a project?",
+    "options": [
+      "Fewer merge conflicts and fewer bugs",
+      "More integration problems and harder debugging",
+      "Automatic deployments become easier",
+      "CI pipelines become unnecessary"
+    ],
+    "answerIndex": 1,
+    "explanation": "Late integration often causes bigger conflicts and more complex issues to resolve."
+  },
+  {
+    "id": "Q18",
+    "topic": "Version Control Systems",
+    "question": "Why should development be done in feature branches instead of directly on main?",
+    "options": [
+      "To avoid code reviews",
+      "To keep main stable and isolate incomplete changes",
+      "To prevent anyone from collaborating",
+      "To remove the need for testing"
+    ],
+    "answerIndex": 1,
+    "explanation": "Feature branches isolate work-in-progress and help keep main stable and releasable."
+  },
+  {
+    "id": "Q19",
+    "topic": "Continuous Delivery",
+    "question": "What does it mean if software is 'releasable at any time'?",
+    "options": [
+      "It has no tests",
+      "It is always broken until release day",
+      "It has passed pipeline checks and is ready for deployment",
+      "It can only be released once per month"
+    ],
+    "answerIndex": 2,
+    "explanation": "Releasable means the build is in a good, tested state and can be deployed when needed."
+  },
+  {
+    "id": "Q20",
+    "topic": "Version Control Systems",
+    "question": "Which command shows all branches (local and remote) in your repository?",
+    "options": [
+      "git log --all",
+      "git branch -a",
+      "git status",
+      "git init"
+    ],
+    "answerIndex": 1,
+    "explanation": "git branch -a lists local branches and remote-tracking branches."
+  }
+
 
 ]
