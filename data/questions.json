@@ -1,0 +1,15 @@
+[
+  {
+    "id": "Q1",
+    "topic": "Version Control Systems",
+    "question": "What is the main purpose of using version control?",
+    "options": [
+      "To run code faster",
+      "To track changes and collaborate safely",
+      "To replace testing",
+      "To deploy automatically"
+    ],
+    "answerIndex": 1,
+    "explanation": "Version control helps track history and enables multiple people to work safely on the same project."
+  }
+]
