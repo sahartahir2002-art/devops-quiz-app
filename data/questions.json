@@ -63,5 +63,70 @@
     ],
     "answerIndex": 1,
     "explanation": "A commit records a snapshot of staged changes to your local repository."
+  },
+  {
+    "id": "Q6",
+    "topic": "Continuous Integration",
+    "question": "Which practice is most closely associated with CI?",
+    "options": [
+      "Long-lived branches with rare merges",
+      "Frequent merges to a shared branch and automated builds",
+      "Skipping unit tests to save time",
+      "Manual deployments only"
+    ],
+    "answerIndex": 1,
+    "explanation": "CI relies on frequent integration plus automated build/test to detect issues early."
+  },
+  {
+    "id": "Q7",
+    "topic": "Continuous Delivery",
+    "question": "What is a key difference between Continuous Delivery and Continuous Deployment?",
+    "options": [
+      "Delivery uses Git, Deployment does not",
+      "Delivery can require manual approval to deploy; Deployment is automatic",
+      "Deployment includes testing; Delivery does not",
+      "Delivery only works for web apps"
+    ],
+    "answerIndex": 1,
+    "explanation": "In Continuous Deployment, every change that passes pipeline stages is deployed automatically; Delivery may include a manual release decision."
+  },
+  {
+    "id": "Q8",
+    "topic": "Version Control Systems",
+    "question": "What does 'git branch' primarily allow you to do?",
+    "options": [
+      "Run automated tests",
+      "Work on features independently without affecting main",
+      "Deploy to production",
+      "Encrypt source code"
+    ],
+    "answerIndex": 1,
+    "explanation": "Branches let you develop features separately and merge when ready."
+  },
+  {
+    "id": "Q9",
+    "topic": "DevOps Culture",
+    "question": "Why are short feedback loops important in DevOps?",
+    "options": [
+      "They reduce the need for documentation",
+      "They help detect and fix issues faster",
+      "They eliminate the need for collaboration",
+      "They make projects longer"
+    ],
+    "answerIndex": 1,
+    "explanation": "Fast feedback helps teams correct problems early and deliver improvements quicker."
+  },
+  {
+    "id": "Q10",
+    "topic": "Continuous Integration",
+    "question": "Which is a common CI pipeline step?",
+    "options": [
+      "Compile/build the code and run automated tests",
+      "Write requirements documents only",
+      "Manually copy files to servers without testing",
+      "Disable code reviews"
+    ],
+    "answerIndex": 0,
+    "explanation": "CI commonly includes automated builds and tests for each change."
   }
 ]
