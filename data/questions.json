@@ -10,6 +10,58 @@
       "To deploy automatically"
     ],
     "answerIndex": 1,
-    "explanation": "Version control helps track history and enables multiple people to work safely on the same project."
+    "explanation": "Version control tracks history and helps teams collaborate safely."
+  },
+  {
+    "id": "Q2",
+    "topic": "DevOps Culture",
+    "question": "Which best describes DevOps culture?",
+    "options": [
+      "Developers work alone without operations",
+      "Collaboration and shared responsibility between Dev and Ops",
+      "Only automation tools matter",
+      "Operations owns all deployments and developers do not participate"
+    ],
+    "answerIndex": 1,
+    "explanation": "DevOps culture emphasizes collaboration, shared ownership, and faster feedback."
+  },
+  {
+    "id": "Q3",
+    "topic": "Continuous Integration",
+    "question": "What is the primary goal of Continuous Integration (CI)?",
+    "options": [
+      "Deploy to production after every commit",
+      "Frequently integrate code changes and catch issues early",
+      "Eliminate all testing",
+      "Avoid using branches"
+    ],
+    "answerIndex": 1,
+    "explanation": "CI integrates changes frequently so problems are found early."
+  },
+  {
+    "id": "Q4",
+    "topic": "Continuous Delivery",
+    "question": "Continuous Delivery mainly ensures that:",
+    "options": [
+      "Code is always ready to be released with minimal manual steps",
+      "Every change is deployed to production automatically",
+      "Testing is skipped to save time",
+      "Only operations can merge code"
+    ],
+    "answerIndex": 0,
+    "explanation": "Continuous Delivery keeps software in a releasable state; deployment may still be a manual decision."
+  },
+  {
+    "id": "Q5",
+    "topic": "Version Control Systems",
+    "question": "What does 'git commit' do?",
+    "options": [
+      "Uploads changes directly to GitHub",
+      "Saves a snapshot of staged changes to the local repository",
+      "Deletes a branch",
+      "Merges two branches automatically"
+    ],
+    "answerIndex": 1,
+    "explanation": "A commit records a snapshot of staged changes to your local repository."
   }
 ]
