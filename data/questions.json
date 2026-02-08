@@ -129,4 +129,71 @@
     "answerIndex": 0,
     "explanation": "CI commonly includes automated builds and tests for each change."
   }
+  ,
+  {
+    "id": "Q11",
+    "topic": "DevOps Culture",
+    "question": "What is a common goal of DevOps teams?",
+    "options": [
+      "Increase separation between Dev and Ops",
+      "Deliver software faster and more reliably",
+      "Avoid automation",
+      "Deploy only once per year"
+    ],
+    "answerIndex": 1,
+    "explanation": "DevOps aims to improve delivery speed and reliability through collaboration and automation."
+  },
+  {
+    "id": "Q12",
+    "topic": "Version Control Systems",
+    "question": "What is the purpose of a Pull Request (PR) on GitHub?",
+    "options": [
+      "To delete old branches",
+      "To request review and merge changes into another branch",
+      "To run code locally",
+      "To rename files automatically"
+    ],
+    "answerIndex": 1,
+    "explanation": "A PR proposes changes, supports review/discussion, and merges into a target branch."
+  },
+  {
+    "id": "Q13",
+    "topic": "Continuous Integration",
+    "question": "Why are automated tests important in a CI pipeline?",
+    "options": [
+      "They replace all documentation",
+      "They help detect bugs early after each change",
+      "They slow down development with no benefit",
+      "They eliminate the need for version control"
+    ],
+    "answerIndex": 1,
+    "explanation": "Automated tests catch issues quickly and improve confidence in frequent integrations."
+  },
+  {
+    "id": "Q14",
+    "topic": "Continuous Delivery",
+    "question": "In a typical delivery pipeline, where should automated tests run?",
+    "options": [
+      "Only after deployment to production",
+      "During the pipeline before release decisions",
+      "Never, because tests are manual",
+      "Only on developers’ personal machines"
+    ],
+    "answerIndex": 1,
+    "explanation": "Tests should run in the pipeline before releasing to ensure quality and reduce risk."
+  },
+  {
+    "id": "Q15",
+    "topic": "Version Control Systems",
+    "question": "What does 'git pull' do?",
+    "options": [
+      "Fetches changes from a remote and merges them into the current branch",
+      "Deletes local commits",
+      "Creates a new repository",
+      "Stages files for commit"
+    ],
+    "answerIndex": 0,
+    "explanation": "git pull usually does fetch + merge, bringing remote updates into your current branch."
+  }
+
 ]
