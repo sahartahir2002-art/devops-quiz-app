@@ -1,3 +1,8 @@
+feature/quiz-ui
+## Features:
+- Interactive quiz UI with topic selection
+- Immediate feedback after answering
+
 ## Question Format
 Questions are stored in `data/questions.json` as an array of objects. Each question uses:
 - id (string)
@@ -16,3 +21,4 @@ Example:
   "answerIndex": 1,
   "explanation": "CI integrates changes frequently to detect issues early."
 }
+ main
